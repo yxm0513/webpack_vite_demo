@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "dev": "webpack-dev-server --open",
-    "build": "webpack -o ."
+    "webpack_dev": "webpack-dev-server --open",
+    "webpack_build": "webpack -o .",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^3.1.0"
+  }
 }
